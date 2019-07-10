@@ -1,0 +1,16 @@
+C:\Users\Jaffar\source\repos\PromoServiceMongoDB\PromoServiceMongoDB\bin\Debug\netcoreapp2.2\PromoServiceMongoDB.deps.json
+C:\Users\Jaffar\source\repos\PromoServiceMongoDB\PromoServiceMongoDB\bin\Debug\netcoreapp2.2\PromoServiceMongoDB.runtimeconfig.json
+C:\Users\Jaffar\source\repos\PromoServiceMongoDB\PromoServiceMongoDB\bin\Debug\netcoreapp2.2\PromoServiceMongoDB.runtimeconfig.dev.json
+C:\Users\Jaffar\source\repos\PromoServiceMongoDB\PromoServiceMongoDB\bin\Debug\netcoreapp2.2\PromoServiceMongoDB.dll
+C:\Users\Jaffar\source\repos\PromoServiceMongoDB\PromoServiceMongoDB\bin\Debug\netcoreapp2.2\PromoServiceMongoDB.pdb
+C:\Users\Jaffar\source\repos\PromoServiceMongoDB\PromoServiceMongoDB\obj\Debug\netcoreapp2.2\PromoServiceMongoDB.csproj.CoreCompileInputs.cache
+C:\Users\Jaffar\source\repos\PromoServiceMongoDB\PromoServiceMongoDB\obj\Debug\netcoreapp2.2\PromoServiceMongoDB.RazorAssemblyInfo.cache
+C:\Users\Jaffar\source\repos\PromoServiceMongoDB\PromoServiceMongoDB\obj\Debug\netcoreapp2.2\PromoServiceMongoDB.RazorAssemblyInfo.cs
+C:\Users\Jaffar\source\repos\PromoServiceMongoDB\PromoServiceMongoDB\obj\Debug\netcoreapp2.2\PromoServiceMongoDB.AssemblyInfoInputs.cache
+C:\Users\Jaffar\source\repos\PromoServiceMongoDB\PromoServiceMongoDB\obj\Debug\netcoreapp2.2\PromoServiceMongoDB.AssemblyInfo.cs
+C:\Users\Jaffar\source\repos\PromoServiceMongoDB\PromoServiceMongoDB\obj\Debug\netcoreapp2.2\PromoServiceMongoDB.RazorTargetAssemblyInfo.cache
+C:\Users\Jaffar\source\repos\PromoServiceMongoDB\PromoServiceMongoDB\obj\Debug\netcoreapp2.2\PromoServiceMongoDB.dll
+C:\Users\Jaffar\source\repos\PromoServiceMongoDB\PromoServiceMongoDB\obj\Debug\netcoreapp2.2\PromoServiceMongoDB.pdb
+C:\Users\Jaffar\source\repos\PromoServiceMongoDB\PromoServiceMongoDB\bin\Debug\netcoreapp2.2\Microsoft.Azure.Documents.ServiceInterop.dll
+C:\Users\Jaffar\source\repos\PromoServiceMongoDB\PromoServiceMongoDB\bin\Debug\netcoreapp2.2\Cosmos.CRTCompat.dll
+C:\Users\Jaffar\source\repos\PromoServiceMongoDB\PromoServiceMongoDB\obj\Debug\netcoreapp2.2\PromoServiceMongoDB.csprojAssemblyReference.cache

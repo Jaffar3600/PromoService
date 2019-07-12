@@ -9,7 +9,7 @@ namespace PromoServiceMongoDB.Model
     public class ProductPromo
     {
 
-        
+        [JsonProperty(PropertyName = "id")]
         public string Id { get; set; }
 
         public string name { get; set; }
@@ -52,18 +52,18 @@ namespace PromoServiceMongoDB.Model
 
 
 
-        /*public override string ToString()
+        public override string ToString()
         {
-            return JsonConvert.DeserializeObject(this);
-           // return JsonConvert.SerializeObject(this);
-        }*/
-
-
-        public ProductPromo()
-        {
-           /* ProductPromo pp = new ProductPromo();
-            string serializedJson = JsonConvert.SerializeObject(pp);*/
+           // return JsonConvert.DeserializeObject(this);
+           return JsonConvert.SerializeObject(this);
         }
+
+
+       /* public ProductPromo()
+        {
+           *//* ProductPromo pp = new ProductPromo();
+            string serializedJson = JsonConvert.SerializeObject(pp);*//*
+        }*/
     }
 
 

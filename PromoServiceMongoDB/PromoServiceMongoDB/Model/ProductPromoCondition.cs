@@ -12,15 +12,17 @@ namespace PromoServiceMongoDB.Model
 
         public float otherValue { get; set; }
 
+
+
+        /* public ProductPromoCondition()
+         {
+
+         }*/
+
         public override string ToString()
         {
-
+            // return JsonConvert.DeserializeObject(this);
             return JsonConvert.SerializeObject(this);
-        }
-
-        public ProductPromoCondition()
-        {
-
         }
     }
 }

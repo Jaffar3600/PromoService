@@ -9,15 +9,19 @@ namespace PromoServiceMongoDB.DataAccess
 {
     public interface ICosmosDataAdapter
     {
-        Task<IEnumerable<ProductPromo>> Get();
+      /*  Task<IEnumerable<ProductPromo>> Get();*/
 
-        Task Add(string dbName, string name);
+       /* Task Add(string dbName, string name);*/
 
-        Task<ProductPromo> Get(string id);
+       /* Task<ProductPromo> Get(string id);*/
         Task<bool> CreateDocument(string v1, string v2, ProductPromo productpromo);
 
+        Task<ProductPromo> DeleteUserAsync(string dbName, string name, string id);
 
 
+        Task<dynamic> GetDataAsync(string dbName, string name);
+
+       // Task<FeedResponse<dynamic>> GetDataAsync(string dbName, string name)
 
 
 

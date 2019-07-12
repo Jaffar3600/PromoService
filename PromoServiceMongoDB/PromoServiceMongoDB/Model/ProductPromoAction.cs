@@ -12,17 +12,18 @@ namespace PromoServiceMongoDB.Model
 
         public string catalogId { get; set; }
 
-       
-        public ProductPromoAction()
-        {
 
-        }
+        /* public ProductPromoAction()
+         {
 
+         }
+ */
         public override string ToString()
         {
-
+            // return JsonConvert.DeserializeObject(this);
             return JsonConvert.SerializeObject(this);
         }
+
 
     }
 }

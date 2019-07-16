@@ -8,6 +8,7 @@ namespace PromoServiceMongoDB.Model
 {
     public class ProductPromo
     {
+        //internal static string _self;
 
         [JsonProperty(PropertyName = "id")]
         public string Id { get; set; }

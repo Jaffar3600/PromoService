@@ -8,7 +8,7 @@ namespace PromoServiceMongoDB.DataAccess.Utility
 {
     public interface ICosmosConnection
     {
-        Task<DocumentClient> InitializeAsync(string collectionId);
+        Task<DocumentClient> InitializeAsync(string collectionId, string collectionId1);
 
     }
 }

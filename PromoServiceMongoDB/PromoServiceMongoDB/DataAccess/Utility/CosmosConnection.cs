@@ -29,13 +29,15 @@ namespace PromoServiceMongoDB.DataAccess.Utility
         /// </summary>
         protected string CollectionId { get; set; }
 
+        protected string CollectionId1 { get; set; }
+
 
 
         private DocumentClient _client;
         private readonly string _endpointUrl;
         private readonly string _authKey;
         private readonly Random _random = new Random();
-        private const string _partitionKey = "test";
+        private const string _partitionKey = "/tenant";
         private readonly ILogger<ICosmosConnection> _logger;
         /// <summary>
         /// Config-based constructor.
@@ -45,16 +47,18 @@ namespace PromoServiceMongoDB.DataAccess.Utility
         public CosmosConnection(IConfiguration config, ILogger<ICosmosConnection> logger)
         {
             DatabaseId = config.GetValue<string>("Cosmos:DatabaseId");
+            CollectionId1 = config.GetValue<string>("cosmos:DatabaseId1");
+
             _endpointUrl = config.GetValue<string>("Cosmos:AccountURL");
             _authKey = config.GetValue<string>("Cosmos:AuthKey");
             _logger = logger;
         }
 
         /// <inheritdoc />
-        public async Task<DocumentClient> InitializeAsync(string collectionId)
+        public async Task<DocumentClient> InitializeAsync(string collectionId, string collectionId1)
         {
             CollectionId = collectionId;
-
+            CollectionId1 = collectionId1;
             JsonConvert.DefaultSettings = () => new JsonSerializerSettings
             {
                 ContractResolver = new CamelCasePropertyNamesContractResolver()

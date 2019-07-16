@@ -7,6 +7,6 @@
         PPC_GTE,
         PPC_LT,
         PPC_LTE,
-        PPC_NEQ,
+        PPC_NEQ
     }
 }
